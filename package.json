@@ -1,0 +1,15 @@
+{
+  "name": "nezha-agent-binary",
+  "version": "2.0.0",
+  "main": "start.js",
+  "scripts": {
+    "build": "echo 'no build step required (binary agent ships precompiled)'",
+    "start": "node start.js"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^3.0.0"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
